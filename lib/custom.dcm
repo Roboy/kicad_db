@@ -20,4 +20,15 @@ D TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitc
 K connector, TE-Connectivity, female
 $ENDCMP
 #
+$CMP TLE9879QX
+D TLE9879QX, Integrated ARM Core + Mosfet drivers for 3 phase motor control, VQFN48
+K Motor control, gate driver mosfet, ARM
+$ENDCMP
+#
+$CMP UA9637ACDR
+D UA9637ACDR/Dual Differential Line Receiver/RS422, RS423, SOIC-8
+K Dual Differential Line Receiver/RS422, RS423
+F http://www.ti.com/lit/ds/symlink/ua9637a.pdf
+$ENDCMP
+#
 #End Doc Library
