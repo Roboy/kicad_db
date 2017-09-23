@@ -5,7 +5,17 @@ D JST PHD connector, double row, 02x05, male, board mount, angled, 2mm pitch
 K connector, JST, PHD, male, 02x05
 $ENDCMP
 #
+$CMP TE-Connectivity_Micro_Match_215079-10
+D TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4
+K connector, TE-Connectivity, female
+$ENDCMP
+#
 $CMP TE-Connectivity_Micro_Match_215079-4
+D TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4
+K connector, TE-Connectivity, female
+$ENDCMP
+#
+$CMP TE-Connectivity_Micro_Match_215079-6
 D TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4
 K connector, TE-Connectivity, female
 $ENDCMP
