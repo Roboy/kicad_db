@@ -1,8 +1,31 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BMI160
+D BMI160, Low Power, 6 Axis IMU, 16-bit
+K BMI160, IMU, 16-bit
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000-07.pdf
+$ENDCMP
+#
+$CMP FSA2259
+D FSA2259 Low-Voltage, Dual-SPDT (0.8Ω) Analog Switch, UQFN-10
+K Analog Switch Dual SPDT FSA2259 UQFN
+F https://www.fairchildsemi.com/datasheets/FS/FSA2259.pdf
+$ENDCMP
+#
 $CMP JST_PHD_connector_02x05_angled_male
 D JST PHD connector, double row, 02x05, male, board mount, angled, 2mm pitch
 K connector, JST, PHD, male, 02x05
+$ENDCMP
+#
+$CMP NTS0102
+D NTS0102; Dual supply translating transceiver; open drain; auto direction sensing
+K NTS0102 Dual Level Translating Transceiver Open Drain Auto Direction
+$ENDCMP
+#
+$CMP SN74LVC1G3157
+D SN74LVC1G3157, SPDT Analog Switch 340MHz
+K SN74LVC1G3157, SPDT, Analog, Switch
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g3157.pdf
 $ENDCMP
 #
 $CMP TE-Connectivity_Micro_Match_215079-10
@@ -18,6 +41,11 @@ $ENDCMP
 $CMP TE-Connectivity_Micro_Match_215079-6
 D TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4
 K connector, TE-Connectivity, female
+$ENDCMP
+#
+$CMP TLE9879QX
+D TLE9879QX, Integrated ARM Core + Mosfet drivers for 3 phase motor control, VQFN48
+K Motor control, gate driver mosfet, ARM
 $ENDCMP
 #
 $CMP UA9637ACDR
