@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4558
+D Low- and High-Side Voltage Output,Current-Sense Amplifier
+K opamp, current, sense, ina180
+F http://www.ti.com/lit/ds/symlink/ina180.pdf
+$ENDCMP
+#
 $CMP BMI160
 D BMI160, Low Power, 6 Axis IMU, 16-bit
 K BMI160, IMU, 16-bit
@@ -12,13 +18,19 @@ K Analog Switch Dual SPDT FSA2259 UQFN
 F https://www.fairchildsemi.com/datasheets/FS/FSA2259.pdf
 $ENDCMP
 #
+$CMP INA180
+D Low- and High-Side Voltage Output,Current-Sense Amplifier
+K opamp, current, sense, ina180
+F http://www.ti.com/lit/ds/symlink/ina180.pdf
+$ENDCMP
+#
 $CMP JST_PHD_connector_02x05_angled_male
 D JST PHD connector, double row, 02x05, male, board mount, angled, 2mm pitch
 K connector, JST, PHD, male, 02x05
 $ENDCMP
 #
 $CMP NTS0102
-D NTS0102; Dual supply translating transceiver; open drain; auto direction sensing
+D NTS0102; Dual supply translating transceiver; open drain; auto direction sensing XSON8
 K NTS0102 Dual Level Translating Transceiver Open Drain Auto Direction
 $ENDCMP
 #
