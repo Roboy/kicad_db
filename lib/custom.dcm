@@ -23,6 +23,12 @@ D JST PHD connector, double row, 02x05, male, board mount, angled, 2mm pitch
 K connector, JST, PHD, male, 02x05
 $ENDCMP
 #
+$CMP MIC5317-3.3YMT-TZ
+D High-Performance Single 150mA LDO
+K MIC5317-3.3YMT-TZ
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5317.pdf
+$ENDCMP
+#
 $CMP NTS0102
 D NTS0102; Dual supply translating transceiver; open drain; auto direction sensing XSON8
 K NTS0102 Dual Level Translating Transceiver Open Drain Auto Direction

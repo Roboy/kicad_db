@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 4558
-D Low- and High-Side Voltage Output,Current-Sense Amplifier
-K opamp, current, sense, ina180
-F http://www.ti.com/lit/ds/symlink/ina180.pdf
-$ENDCMP
-#
 $CMP BMI160
 D BMI160, Low Power, 6 Axis IMU, 16-bit
 K BMI160, IMU, 16-bit
@@ -27,6 +21,12 @@ $ENDCMP
 $CMP JST_PHD_connector_02x05_angled_male
 D JST PHD connector, double row, 02x05, male, board mount, angled, 2mm pitch
 K connector, JST, PHD, male, 02x05
+$ENDCMP
+#
+$CMP MIC5317-3.3YMT-TZ
+D High-Performance Single 150mA LDO
+K MIC5317-3.3YMT-TZ
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5317.pdf
 $ENDCMP
 #
 $CMP NTS0102
