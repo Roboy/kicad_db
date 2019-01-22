@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AOZ1280
+D AOZ1280 EZBuck™ 1.2 A Simple Buck Regulator
+K AOZ1280, Buck, Regulator, DC/DC, Converter, Switching
+F http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
+$ENDCMP
+#
 $CMP BMI160
 D BMI160, Low Power, 6 Axis IMU, 16-bit
 K BMI160, IMU, 16-bit
@@ -23,10 +29,22 @@ D JST PHD connector, double row, 02x05, male, board mount, angled, 2mm pitch
 K connector, JST, PHD, male, 02x05
 $ENDCMP
 #
+$CMP LP2951-50DRGR_WSON8
+D 100mA Linear LDO Regulator, Low Error, MicroPower, Adjustable, 5.0V, Shutdown, PWSON8
+K Linear LDO Regulator 100mA 5V
+F http://www.ti.com/lit/ds/symlink/lp2950.pdf
+$ENDCMP
+#
 $CMP MIC5317-3.3YMT-TZ
 D High-Performance Single 150mA LDO
 K MIC5317-3.3YMT-TZ
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5317.pdf
+$ENDCMP
+#
+$CMP NLX2G17AMX1TCG
+D Dual Schmitt-Trigger Buffer
+K dual schmitt trigger buffer
+F http://www.onsemi.com/pub/Collateral/NLX2G17-D.PDF
 $ENDCMP
 #
 $CMP NTS0102
