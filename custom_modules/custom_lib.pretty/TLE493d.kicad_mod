@@ -1,4 +1,5 @@
-(module TLE493d (layer F.Cu) (tedit 5EDC9900)
+(module TLE493d (layer F.Cu) (tedit 5EDF9ED4)
+  (attr smd)
   (fp_text reference REF** (at 3.2 -1.25 180) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
