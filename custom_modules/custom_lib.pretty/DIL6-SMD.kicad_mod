@@ -1,0 +1,72 @@
+
+(module DIL6-SMD (layer F.Cu) (tedit 5E4D5A6A)
+  (descr "<b>DIL 6 SMD</b><p>Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html")
+  (fp_text reference REF** (at -5.59018 0.63523 900) (layer F.SilkS)
+    (effects (font (size 0.80031496063 0.80031496063) (thickness 0.015)))
+  )
+  (fp_text value DIL6-SMD (at 5.214045 -0.89019 900) (layer F.Fab)
+    (effects (font (size 0.801078740157 0.801078740157) (thickness 0.015)))
+  )
+  (fp_line (start 4.36 -3.18) (end 4.36 2.664) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 4.36 2.664) (end 4.36 3.18) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -4.385 -3.18) (end 4.36 -3.18) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 4.36 3.18) (end -4.385 3.18) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -4.385 3.18) (end -4.385 -3.18) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 4.36 2.664) (end -4.285 2.664) (layer F.SilkS) (width 0.1524))
+  (fp_circle (center -3.5 2.0) (end -3.2239 2.0) (layer F.SilkS) (width 0.0))
+  (fp_circle (center -4.826 4.318) (end -4.572 4.318) (layer F.SilkS) (width 0.254))
+  (fp_poly
+    (pts
+      (xy -3.14965 3.2)
+      (xy -1.92 3.2)
+      (xy -1.92 4.95732)
+      (xy -3.14965 4.95732)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.605611 3.2)
+      (xy 0.62 3.2)
+      (xy 0.62 4.955)
+      (xy -0.605611 4.955)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 1.93765 3.2)
+      (xy 3.16 3.2)
+      (xy 3.16 4.95679)
+      (xy 1.93765 4.95679)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 1.92132 -4.95)
+      (xy 3.145 -4.95)
+      (xy 3.145 -3.2022)
+      (xy 1.92132 -3.2022)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.620829 -4.95)
+      (xy 0.605 -4.95)
+      (xy 0.605 -3.20428)
+      (xy -0.620829 -3.20428)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -3.16497 -4.95)
+      (xy -1.935 -4.95)
+      (xy -1.935 -3.20504)
+      (xy -3.16497 -3.20504)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (pad 1 smd rect (at -2.54 4.645) (size 1.78 1.52) (layers F.Cu F.Mask F.Paste))
+  (pad 2 smd rect (at 0.0 4.645) (size 1.78 1.52) (layers F.Cu F.Mask F.Paste))
+  (pad 3 smd rect (at 2.54 4.645) (size 1.78 1.52) (layers F.Cu F.Mask F.Paste))
+  (pad 4 smd rect (at 2.54 -4.645) (size 1.78 1.52) (layers F.Cu F.Mask F.Paste))
+  (pad 5 smd rect (at 0.0 -4.645) (size 1.78 1.52) (layers F.Cu F.Mask F.Paste))
+  (pad 6 smd rect (at -2.54 -4.645) (size 1.78 1.52) (layers F.Cu F.Mask F.Paste))
+)

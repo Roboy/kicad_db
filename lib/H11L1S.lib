@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# H11L1S
+#
+DEF H11L1S OPTO 0 40 Y Y 1 L N
+F0 "OPTO" -400 -300 50 H V L BNN
+F1 "H11L1S" -400 230 50 H V L BNN
+F2 "DIL6-SMD" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 200 -400 -200 N
+P 2 0 0 10 -400 -200 400 -200 N
+P 2 0 0 10 400 -200 400 200 N
+P 2 0 0 10 400 200 -400 200 N
+X ANODE@1 1 -500 100 100 R 40 40 0 0 B 
+X CATHODE@2 2 -500 0 100 R 40 40 0 0 B 
+X @3 3 -500 -100 100 R 40 40 0 0 B 
+X VCC@6 6 500 100 100 L 40 40 0 0 B 
+X GND@5 5 500 0 100 L 40 40 0 0 B 
+X OUT@4 4 500 -100 100 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
